@@ -66,6 +66,8 @@ The application starts a timer, and then when the time runs out, it runs this co
 The project was developed using **AI-assisted tools**, including OpenAI's ChatGPT-5.3-mini.
 The icon was also created with assistance from Google Gemini. All code was generated through iterative prompting, and has been used and tested by the project maintainer. It was initially made for personal-use, but I thought it may be useful to others.
 
+I also noticed there are paid applications like [Sleepr](https://apps.apple.com/us/app/sleepr-app/id6465683427) which offer the same functionality as this app, but do not currently support macOS Tahoe. I have little coding experience and make no promises that this will be actively maintained but I will do my best to update and fix issues where I can.
+
 ---
 
 ## 📋 LICENSE
