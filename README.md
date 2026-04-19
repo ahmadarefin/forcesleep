@@ -42,14 +42,14 @@ The application starts a timer, and then when the time runs out, it runs this co
 
 ### Option 1: Prebuilt Release
 
-1. Go to the **Releases** section
-2. Download `ForceSleep.v1.0.zip`
-3. Unzip the file
-4. Open the containing folder
-5. Right-click the app and click "Open"
-
+1. Download `ForceSleep.v1.0.zip` from **Releases** or with the button below
+2. Unzip the file and open the containing folder
+3. Right-click the app and click "Open"
 > ⚠️ If macOS shows a warning to say the app is from an unidentified developer,
 > Go to System Settings → Privacy & Security → “Open Anyway”
+4. After opening the app successfully, move to your Applications folder to install
+
+[<img width="250" height="80" alt="Download_for_MAC_Badge_Black_Colour_English_600x200" src="https://github.com/user-attachments/assets/604ff369-54f3-4863-8e8b-e133b071fce6" />](https://github.com/ahmadarefin/forcesleep/releases/download/v1.0.0/Force.Sleep.v1.0.zip)
 
 ---
 
@@ -58,6 +58,8 @@ The application starts a timer, and then when the time runs out, it runs this co
 1. Clone the repository:
    ```bash
    git clone https://github.com/ahmadarefin/forcesleep.git
+2. Sign using your Apple ID.
+3. Build and run the application.
 
 ---
 
@@ -71,4 +73,4 @@ There are paid applications available like [Sleep Utility](https://apps.apple.co
 
 ## 📋 LICENSE
 
-The project is released as free and open-source software under the GNU General Public License (GPL), and is distributed without warranty. The full license can be found in the GPL-3.0 License section of this repository, or at https://www.gnu.org/licenses.
+The project is released as free and open-source software under the GNU General Public License (GPL), and is distributed without warranty; or even the implied warranty of merchantability or fitness for a particular purpose. The full license can be found in the GPL-3.0 License section of this repository, or at https://www.gnu.org/licenses.
