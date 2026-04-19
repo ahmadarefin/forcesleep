@@ -1,9 +1,10 @@
 //
-//  ContentView.swift
-//  Force Sleep
-//
-//  Created by Ahmad Arefin on 19/04/2026.
-//
+//  Force Sleep for macOS
+//  Built & Maintained by Ahmad Arefin.
+// ---------------------------------------
+//  This project is released as free and open-source software under the GNU General Public License (GPL), and is distributed without warranty. The project was developed using AI-assisted tools, including GPT-5.3-mini. All code below was generated through iterative prompting, and has been used and tested by the project maintainer.
+// ----------------------------------------
+// See the GNU General Public License for more details: https://www.gnu.org/licenses/ //"
 
 import SwiftUI
 import UserNotifications
