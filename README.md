@@ -63,10 +63,9 @@ The application starts a timer, and then when the time runs out, it runs this co
 
 ## 🤖 DISCLAIMER
 
-The project was developed using **AI-assisted tools**, including OpenAI's ChatGPT-5.3-mini.
-The icon was also created with assistance from Google Gemini. All code was generated through iterative prompting, and has been used and tested by the project maintainer. It was initially made for personal-use, but I thought it may be useful to others.
+The app was initially made for personal use, and was developed **using AI Large-Language Models**, including OpenAI's ChatGPT-5.3-mini. The icon was also designed with assistance from Google Gemini. The code was generated through iterative prompting, and the application has been used and tested by the project maintainer on specific hardware.
 
-There are paid applications like [Sleepr](https://apps.apple.com/us/app/sleepr-app/id6465683427) which offer the same functionality as this app, but I have not found any that currently support macOS Tahoe. I have little coding experience, and make no promises that this will be actively maintained, but I will do my best to update and fix issues where I can.
+There are paid applications available like [Sleep Utility](https://apps.apple.com/us/app/sleep-utility/id1206520984) and [Sleepr](https://apps.apple.com/us/app/sleepr-app/id6465683427) which offer similar functionality to this app, but these options are rarely free-of-charge or open-source. Therefore, I felt it could be helpful to have a free FOSS option available to users. I have little coding experience, and make no promises that this will be actively maintained, but I will do my best to update and fix issues where I can and welcome contributions.
 
 ---
 
