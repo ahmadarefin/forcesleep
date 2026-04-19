@@ -20,20 +20,22 @@
 
 ## 💻 Purpose of the App
 
-In macOS, there is an option to "Turn display off on power adapter when inactive" in System Settings → Lock Screen. However, there is no option to lock your computer or put it to sleep after a set time even when it is "active."
+In macOS, there is an option to "Turn display off on power adapter *when inactive*" in System Settings → Lock Screen. However, there is **no option** to lock your computer, put it to sleep or have a Screen Saver come on after a set time when it is "active" or if there are processes/applications running in the foreground.
 
-This application can be used in scenarios where you may use your computer for media playback (like watching a movie or listening to a music playlist), but expect you fall asleep so you want the laptop to go to sleep automatically to save power/battery.
+<img width="735" height="242" alt="Lock Screen Settings" src="https://github.com/user-attachments/assets/1aedc19a-913a-446f-b7e4-8f9ae579b498" /> <br>
+
+In contrast, this application can be used in scenarios where you may leave your computer on for media playback (like watching a movie or listening to a music playlist), but you may expect to fall asleep and want it to be put into Sleep Mode after a set amount of time, to save power/battery.
 
 ## 💤 Application Script
 
-The application starts a timer, and then when the time runs out, it runs this command: `/usr/bin/pmset sleepnow` to put the device in sleep mode.
+The application starts a timer based on user input, and then once the time runs out, it runs the following command: `/usr/bin/pmset sleepnow` to put the device in Sleep Mode.
 
 ---
 
 ## 🖥️ System Requirements
 
 - Supports Apple Silicon
-- macOS 26.0 or later
+- Supports macOS 26.0 or higher
 - Memory usage is minimal (around 30MB)
 
 ---
@@ -55,10 +57,10 @@ The application starts a timer, and then when the time runs out, it runs this co
 
 ### Option 2: Build from Source
 
-1. Clone the repository:
+1. Clone the GitHub repository:
    ```bash
    git clone https://github.com/ahmadarefin/forcesleep.git
-2. Sign using your Apple ID.
+2. Sign the application in XCode using your Apple ID.
 3. Build and run the application.
 
 ---
