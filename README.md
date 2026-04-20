@@ -2,7 +2,7 @@
 
 <img width="128" height="128" alt="AppIcon" src="https://github.com/user-attachments/assets/ec19fb92-08d5-497f-9bab-1739e1c14e0f" align="left"/>
 
-**Force Sleep** is a simple, lightweight macOS utility application that allows users to put their Mac to sleep after a user-defined time. The application *ignores whether there are applications active* and forces the computer to sleep after the set time limit. It is designed to be minimal, fast, and easy to use, with a native SwiftUI interface.
+**Force Sleep** is a simple, lightweight macOS application that allows users to put their Mac to sleep after a user-defined time. The application *ignores whether there are applications active* and forces the computer to sleep after the set time limit. It is designed to be minimal, fast, and easy to use.
 
 ---
 
