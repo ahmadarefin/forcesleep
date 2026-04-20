@@ -8,10 +8,11 @@
 
 ## ⭐️ Features
 
-- Set the sleep timer using the slider (1 minute to 4 hours)
+- Set the sleep timer using a slider or manual entry
 - Quick-select time button options (15-120 minutes)
 - Manual “Sleep Now” button in the top-right
 - Native macOS SwiftUI interface
+- Option to remember your last used sleep option
 - Runs locally, no background services or permissions required
 
 <img width="444" height="478" alt="Force Sleep Timer UI" src="https://github.com/user-attachments/assets/02b8c1b3-3498-4f87-9b5e-24900d067360" />
@@ -34,7 +35,7 @@ The application starts a timer based on user input, and then once the time runs 
 
 ## 🖥️ System Requirements
 
-- Supports Apple Silicon
+- Designed for Apple Silicon
 - Supports macOS 26.0 or higher
 - Memory usage is minimal (around 30MB)
 
@@ -67,9 +68,9 @@ The application starts a timer based on user input, and then once the time runs 
 
 ## 🤖 DISCLAIMER
 
-The app was initially made for personal use, and was developed **using AI Large-Language Models**, including OpenAI's ChatGPT-5.3-mini. The icon was also designed with assistance from Google Gemini. The code was generated through iterative prompting, and the application has been used and tested by the project maintainer on specific hardware.
+The app was initially made for personal use, and was developed **using AI Large-Language Models**, including ChatGPT-5.3-mini and Claude Sonnet-4.6. The icon was also designed with assistance from Google Gemini. The code was generated through iterative prompting, and the application has been used and tested by the project maintainer on specific hardware.
 
-There are paid applications available like [Sleep Utility](https://apps.apple.com/us/app/sleep-utility/id1206520984) and [Sleepr](https://apps.apple.com/us/app/sleepr-app/id6465683427) which offer similar functionality to this app, but these options are rarely free-of-charge or open-source. Therefore, I felt it could be helpful to have a free FOSS option available to users. I have little coding experience, and make no promises that this will be actively maintained, but I will do my best to update and fix issues where I can and welcome contributions.
+There are paid applications available, like [Sleep Utility](https://apps.apple.com/us/app/sleep-utility/id1206520984) and [Sleepr](https://apps.apple.com/us/app/sleepr-app/id6465683427), which offer similar functionality, but these options are not open-source. Therefore, I felt it could be helpful to have a FOSS option freely available to users. I have little coding experience, and make no promises that this will be actively maintained, but I will do my best to update and fix issues where I can and welcome contributions.
 
 ---
 
