@@ -49,7 +49,7 @@ struct ContentView: View {
                         .scaledToFit()
                         .frame(width: 64, height: 64)
                         .opacity(0.9)
-                    Text("Force Sleep Timer")
+                    Text("Force Sleep")
                         .font(.largeTitle)
                         .fontWeight(.semibold)
                     Text("Set a timer to put your Mac to Sleep after the inputted amount of time.")
