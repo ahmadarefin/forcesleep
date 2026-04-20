@@ -6,27 +6,18 @@
 //
 
 import SwiftUI
-import SwiftData
 
 @main
 struct Force_SleepApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
-
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear {
+                    NSApplication.shared.windows.first?.setContentSize(NSSize(width: 400, height: 500))
+                    NSApplication.shared.windows.first?.center()
+                }
         }
-        .modelContainer(sharedModelContainer)
+        .defaultSize(width: 400, height: 500)
+        .windowResizability(.contentSize)
     }
 }
